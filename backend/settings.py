@@ -120,8 +120,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'backend.wsgi.application'
-
+# WSGI_APPLICATION = 'application'  
+# WSGI_APPLICATION = 'wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
