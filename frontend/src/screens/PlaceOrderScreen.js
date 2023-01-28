@@ -202,5 +202,6 @@ function PlaceOrderScreen({ history }) {
     </div>
   );
 }
+// react redux
 
 export default PlaceOrderScreen;
