@@ -15,7 +15,7 @@ import { logout } from "../actions/userActions";
 /* COMPONENTS */
 import SearchBox from "./SearchBox";
 
-import logo from "../logo.png";
+// import logo from "../media/images/milklogo";
 
 function Header() {
   /* PULLING A PART OF STATE FROM THE ACTUAL STATE IN THE REDUX STORE */
@@ -36,7 +36,7 @@ function Header() {
         <Container>
           <LinkContainer to="/">
             <Navbar.Brand>
-              <img src={logo} alt="Otaku Shop" />
+              <img src="../media/images/milklogo.jpeg" alt="Otaku Shop" />
             </Navbar.Brand>
           </LinkContainer>
 
